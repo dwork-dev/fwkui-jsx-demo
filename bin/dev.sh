@@ -1,0 +1,2 @@
+#!/bin/bash
+esbuild src/app.jsx --bundle --outdir=public  --jsx-factory=$.h --jsx-fragment=$.f --splitting  --format=esm   --legal-comments=eof  --loader:.woff=file --loader:.woff2=file --loader:.ttf=file --watch 
